@@ -36,7 +36,7 @@ class Cock extends Component {
         <ul>
           {items.map(item => (
             <li key={item.name}>{item.strDrink}
-              <img width= "300" height= "300" src={item.strDrinkThumb}></img>
+              <img width= "300" height= "300" src={item.strDrinkThumb} alt="cocktails"></img>
             </li>
           ))}
         </ul>
